@@ -1,0 +1,256 @@
+2020-11-17 16:31:03 -Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:290)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:263)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:226)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:199)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.lou.springboot.Application.main(Application.java:15)
+2020-11-17 16:31:34 -Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:290)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:263)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:226)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:199)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.lou.springboot.Application.main(Application.java:15)
+2020-11-17 16:32:30 -Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:290)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:263)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:226)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:199)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.lou.springboot.Application.main(Application.java:15)
+2020-11-17 16:34:30 -Starting Application on v_yijit-NB1 with PID 7616 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:34:30 -No active profile set, falling back to default profiles: default
+2020-11-17 16:34:31 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:34:31 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:34:31 -Starting service [Tomcat]
+2020-11-17 16:34:31 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:34:31 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:34:32 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:34:32 -Root WebApplicationContext: initialization completed in 1964 ms
+2020-11-17 16:34:32 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:34:32 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:34:32 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:34:32 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:34:32 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:34:32 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:34:32 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:34:32 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:34:32 -Using a shared selector for servlet write/read
+2020-11-17 16:34:32 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:34:32 -Started Application in 3.692 seconds (JVM running for 5.123)
+2020-11-17 16:35:00 -每日数据中台定时任务开始于: Tue Nov 17 16:35:00 CST 2020
+2020-11-17 16:35:00 -HikariPool-1 - Starting...
+2020-11-17 16:35:00 -HikariPool-1 - Start completed.
+2020-11-17 16:35:00 -每日数据中台定时任务结束于: Tue Nov 17 16:35:00 CST 2020
+2020-11-17 16:36:00 -每日数据中台定时任务开始于: Tue Nov 17 16:36:00 CST 2020
+2020-11-17 16:36:00 -每日数据中台定时任务结束于: Tue Nov 17 16:36:00 CST 2020
+2020-11-17 16:36:58 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:36:58 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:36:58 -HikariPool-1 - Shutdown initiated...
+2020-11-17 16:36:58 -HikariPool-1 - Shutdown completed.
+2020-11-17 16:37:05 -Starting Application on v_yijit-NB1 with PID 20436 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:37:05 -No active profile set, falling back to default profiles: default
+2020-11-17 16:37:06 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:37:06 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:37:06 -Starting service [Tomcat]
+2020-11-17 16:37:06 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:37:06 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:37:06 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:37:06 -Root WebApplicationContext: initialization completed in 1758 ms
+2020-11-17 16:37:06 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:37:06 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:37:06 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:37:06 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:37:06 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:37:07 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:37:07 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:37:07 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:37:07 -Using a shared selector for servlet write/read
+2020-11-17 16:37:07 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:37:07 -Started Application in 3.094 seconds (JVM running for 4.284)
+2020-11-17 16:37:17 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:37:17 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:37:23 -Starting Application on v_yijit-NB1 with PID 15532 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:37:23 -No active profile set, falling back to default profiles: default
+2020-11-17 16:37:25 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:37:25 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:37:25 -Starting service [Tomcat]
+2020-11-17 16:37:25 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:37:25 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:37:26 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:37:26 -Root WebApplicationContext: initialization completed in 2085 ms
+2020-11-17 16:37:26 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:37:26 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:37:26 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:37:26 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:37:26 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:37:26 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:37:26 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:37:26 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:37:26 -Using a shared selector for servlet write/read
+2020-11-17 16:37:26 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:37:26 -Started Application in 3.507 seconds (JVM running for 4.862)
+2020-11-17 16:38:00 -每日数据中台定时任务开始于: Tue Nov 17 16:38:00 CST 2020
+2020-11-17 16:38:00 -HikariPool-1 - Starting...
+2020-11-17 16:38:00 -HikariPool-1 - Start completed.
+2020-11-17 16:38:00 -每日数据中台定时任务结束于: Tue Nov 17 16:38:00 CST 2020
+2020-11-17 16:42:10 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:42:10 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:42:10 -HikariPool-1 - Shutdown initiated...
+2020-11-17 16:42:10 -HikariPool-1 - Shutdown completed.
+2020-11-17 16:42:17 -Starting Application on v_yijit-NB1 with PID 18548 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:42:17 -No active profile set, falling back to default profiles: default
+2020-11-17 16:42:18 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:42:18 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:42:18 -Starting service [Tomcat]
+2020-11-17 16:42:18 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:42:18 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:42:18 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:42:18 -Root WebApplicationContext: initialization completed in 1237 ms
+2020-11-17 16:42:18 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:42:18 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:42:18 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:42:18 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:42:18 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:42:19 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:42:19 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:42:19 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:42:19 -Using a shared selector for servlet write/read
+2020-11-17 16:42:19 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:42:19 -Started Application in 2.488 seconds (JVM running for 3.65)
+2020-11-17 16:42:25 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:42:25 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:42:32 -Starting Application on v_yijit-NB1 with PID 20156 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:42:32 -No active profile set, falling back to default profiles: default
+2020-11-17 16:42:34 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:42:34 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:42:34 -Starting service [Tomcat]
+2020-11-17 16:42:34 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:42:34 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:42:34 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:42:34 -Root WebApplicationContext: initialization completed in 2237 ms
+2020-11-17 16:42:34 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:42:34 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:42:34 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:42:34 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:42:34 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:42:35 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:42:35 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:42:35 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:42:35 -Using a shared selector for servlet write/read
+2020-11-17 16:42:35 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:42:35 -Started Application in 3.771 seconds (JVM running for 4.947)
+2020-11-17 16:43:00 -每日数据中台定时任务开始于: Tue Nov 17 16:43:00 CST 2020
+2020-11-17 16:43:00 -HikariPool-1 - Starting...
+2020-11-17 16:43:01 -HikariPool-1 - Start completed.
+2020-11-17 16:43:01 -每日数据中台定时任务结束于: Tue Nov 17 16:43:01 CST 2020
+2020-11-17 16:43:33 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:43:33 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:43:33 -HikariPool-1 - Shutdown initiated...
+2020-11-17 16:43:33 -HikariPool-1 - Shutdown completed.
+2020-11-17 16:43:39 -Starting Application on v_yijit-NB1 with PID 8824 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:43:39 -No active profile set, falling back to default profiles: default
+2020-11-17 16:43:41 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:43:41 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:43:41 -Starting service [Tomcat]
+2020-11-17 16:43:41 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:43:41 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:43:41 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:43:41 -Root WebApplicationContext: initialization completed in 1389 ms
+2020-11-17 16:43:41 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:43:41 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:43:41 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:43:41 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:43:41 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:43:41 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:43:42 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:43:42 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:43:42 -Using a shared selector for servlet write/read
+2020-11-17 16:43:42 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:43:42 -Started Application in 2.736 seconds (JVM running for 3.932)
+2020-11-17 16:44:00 -每日数据中台定时任务开始于: Tue Nov 17 16:44:00 CST 2020
+2020-11-17 16:44:10 -HikariPool-1 - Starting...
+2020-11-17 16:44:11 -HikariPool-1 - Start completed.
+2020-11-17 16:44:53 -每日数据中台定时任务结束于: Tue Nov 17 16:44:53 CST 2020
+2020-11-17 16:48:06 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:48:06 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:48:06 -HikariPool-1 - Shutdown initiated...
+2020-11-17 16:48:06 -HikariPool-1 - Shutdown completed.
+2020-11-17 16:48:13 -Starting Application on v_yijit-NB1 with PID 23632 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-17 16:48:13 -No active profile set, falling back to default profiles: default
+2020-11-17 16:48:15 -Tomcat initialized with port(s): 8080 (http)
+2020-11-17 16:48:15 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:48:15 -Starting service [Tomcat]
+2020-11-17 16:48:15 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-17 16:48:15 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-17 16:48:15 -Initializing Spring embedded WebApplicationContext
+2020-11-17 16:48:15 -Root WebApplicationContext: initialization completed in 1764 ms
+2020-11-17 16:48:15 -Servlet dispatcherServlet mapped to [/]
+2020-11-17 16:48:15 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-17 16:48:15 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-17 16:48:15 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-17 16:48:15 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-17 16:48:15 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:48:15 -Initializing ExecutorService 'taskScheduler'
+2020-11-17 16:48:15 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-17 16:48:15 -Using a shared selector for servlet write/read
+2020-11-17 16:48:15 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 16:48:15 -Started Application in 2.883 seconds (JVM running for 4.175)
+2020-11-17 16:49:00 -每日数据中台定时任务开始于: Tue Nov 17 16:49:00 CST 2020
+2020-11-17 16:49:00 -HikariPool-1 - Starting...
+2020-11-17 16:49:00 -HikariPool-1 - Start completed.
+2020-11-17 16:49:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-17 16:49:00 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_CHG_EVT_C",                 "sgbcode": "all",                 "bizdate": "2020-11-16",                 "declare_num": 1,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201117164900", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-17 16:49:21 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-17 16:49:21 ->>>>>>>>tablename:SYS_ORGUNT_D----count:1
+2020-11-17 16:49:21 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-16",                 "declare_num": 1,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201117164921", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-17 16:49:27 -Shutting down ExecutorService 'taskScheduler'
+2020-11-17 16:49:27 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 16:49:27 -HikariPool-1 - Shutdown initiated...
+2020-11-17 16:49:27 -HikariPool-1 - Shutdown completed.

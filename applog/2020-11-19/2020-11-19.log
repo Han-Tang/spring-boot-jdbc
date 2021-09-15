@@ -1,0 +1,175 @@
+2020-11-19 11:33:13 -Starting Application on v_yijit-NB1 with PID 22484 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-19 11:33:13 -No active profile set, falling back to default profiles: default
+2020-11-19 11:33:14 -Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:33:14 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:33:14 -Starting service [Tomcat]
+2020-11-19 11:33:14 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-19 11:33:14 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-19 11:33:14 -Initializing Spring embedded WebApplicationContext
+2020-11-19 11:33:14 -Root WebApplicationContext: initialization completed in 985 ms
+2020-11-19 11:33:14 -Servlet dispatcherServlet mapped to [/]
+2020-11-19 11:33:14 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-19 11:33:14 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-19 11:33:14 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-19 11:33:14 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-19 11:33:14 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:33:14 -Initializing ExecutorService 'taskScheduler'
+2020-11-19 11:33:14 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:33:14 -Using a shared selector for servlet write/read
+2020-11-19 11:33:14 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:33:14 -Started Application in 1.821 seconds (JVM running for 2.936)
+2020-11-19 11:34:00 -每日数据中台定时任务开始于: Thu Nov 19 11:34:00 CST 2020
+2020-11-19 11:34:00 -HikariPool-1 - Starting...
+2020-11-19 11:34:00 -HikariPool-1 - Start completed.
+2020-11-19 11:34:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-19 11:34:00 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_CHG_EVT_C",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113400", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:34:21 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:34:21 ->>>>>>>>tablename:SYS_ORGUNT_D----count:1
+2020-11-19 11:34:21 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113421", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:34:42 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:34:42 ->>>>>>>>tablename:SYS_ORGUNT_RLTS_D----count:1
+2020-11-19 11:34:42 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_RLTS_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113442", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:35:03 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:35:03 ->>>>>>>>tablename:SYS_ORGUNT_UACT_D----count:1
+2020-11-19 11:35:03 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_UACT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 4,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113503", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:35:20 -Shutting down ExecutorService 'taskScheduler'
+2020-11-19 11:35:20 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:35:20 -HikariPool-1 - Shutdown initiated...
+2020-11-19 11:35:20 -HikariPool-1 - Shutdown completed.
+2020-11-19 11:35:26 -Starting Application on v_yijit-NB1 with PID 24896 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-19 11:35:26 -No active profile set, falling back to default profiles: default
+2020-11-19 11:35:27 -Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:35:27 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:35:27 -Starting service [Tomcat]
+2020-11-19 11:35:27 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-19 11:35:27 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-19 11:35:27 -Initializing Spring embedded WebApplicationContext
+2020-11-19 11:35:27 -Root WebApplicationContext: initialization completed in 1079 ms
+2020-11-19 11:35:27 -Servlet dispatcherServlet mapped to [/]
+2020-11-19 11:35:27 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-19 11:35:27 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-19 11:35:27 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-19 11:35:27 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-19 11:35:27 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:35:27 -Initializing ExecutorService 'taskScheduler'
+2020-11-19 11:35:27 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:35:27 -Using a shared selector for servlet write/read
+2020-11-19 11:35:27 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:35:27 -Started Application in 1.956 seconds (JVM running for 2.956)
+2020-11-19 11:36:00 -每日数据中台定时任务开始于: Thu Nov 19 11:36:00 CST 2020
+2020-11-19 11:36:00 -HikariPool-1 - Starting...
+2020-11-19 11:36:00 -HikariPool-1 - Start completed.
+2020-11-19 11:36:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-19 11:36:00 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_CHG_EVT_C",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113600", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:36:21 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:36:21 ->>>>>>>>tablename:SYS_ORGUNT_D----count:1
+2020-11-19 11:36:21 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113621", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:36:42 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:36:42 ->>>>>>>>tablename:SYS_ORGUNT_RLTS_D----count:1
+2020-11-19 11:36:42 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_RLTS_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113642", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:37:03 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:37:03 ->>>>>>>>tablename:SYS_ORGUNT_UACT_D----count:1
+2020-11-19 11:37:03 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ORGUNT_UACT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 4,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113703", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:37:24 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:37:24 ->>>>>>>>tablename:SYS_RESU_D----count:1
+2020-11-19 11:37:24 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_RESU_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 6,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113724", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:37:45 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:37:45 ->>>>>>>>tablename:SYS_ROLE_PERM_D----count:1
+2020-11-19 11:37:45 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ROLE_PERM_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 151,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113745", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:38:06 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:38:06 ->>>>>>>>tablename:SYS_ROLE_UACT_D----count:1
+2020-11-19 11:38:06 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_ROLE_UACT_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 1,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113806", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:38:27 -发送 POST 请求出现异常！java.net.ConnectException: Connection timed out: connect
+2020-11-19 11:38:27 ->>>>>>>>tablename:SYS_SUBSYS_D----count:1
+2020-11-19 11:38:27 -请求参数>>>>>>>>>>>> { 	"requestBody": { 		"requestData": { 			"taskType": "1",             "taskStep": "1", 			"params": { 				"database": "crtfcent_db", 				"table_name": "SYS_SUBSYS_D",                 "sgbcode": "all",                 "bizdate": "2020-11-18",                 "declare_num": 0,                 "subsys_code": "cep" 			} 		} 	}, 	"requestHead": { 		"no": "20201119113827", 		"source": "dragoon", 		"sourceId": "datasrv", 		"version": "1.0", 		"auth": { 			"name": "Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw" ,			"password": "yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW" 		} 	} } 
+2020-11-19 11:38:38 -Shutting down ExecutorService 'taskScheduler'
+2020-11-19 11:38:38 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:38:38 -HikariPool-1 - Shutdown initiated...
+2020-11-19 11:38:38 -HikariPool-1 - Shutdown completed.
+2020-11-19 11:38:44 -Starting Application on v_yijit-NB1 with PID 22568 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-19 11:38:44 -No active profile set, falling back to default profiles: default
+2020-11-19 11:38:45 -Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:38:45 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:38:45 -Starting service [Tomcat]
+2020-11-19 11:38:45 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-19 11:38:45 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-19 11:38:45 -Initializing Spring embedded WebApplicationContext
+2020-11-19 11:38:45 -Root WebApplicationContext: initialization completed in 1107 ms
+2020-11-19 11:38:45 -Servlet dispatcherServlet mapped to [/]
+2020-11-19 11:38:45 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-19 11:38:45 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-19 11:38:45 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-19 11:38:45 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-19 11:38:45 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:38:45 -Initializing ExecutorService 'taskScheduler'
+2020-11-19 11:38:45 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:38:45 -Using a shared selector for servlet write/read
+2020-11-19 11:38:45 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:38:45 -Started Application in 2.175 seconds (JVM running for 3.252)
+2020-11-19 11:39:00 -每日数据中台定时任务开始于: Thu Nov 19 11:39:00 CST 2020
+2020-11-19 11:39:00 -HikariPool-1 - Starting...
+2020-11-19 11:39:00 -HikariPool-1 - Start completed.
+2020-11-19 11:39:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-19 11:39:00 -请求参数>>>>>>>>>>>>{	"requestBody":{		"requestData":{			"taskType":"1","taskStep":"1",			"params":{				"database":"crtfcent_db",				"table_name":"SYS_ORGUNT_CHG_EVT_C","sgbcode":"all","bizdate":"2020-11-18","declare_num":0,"subsys_code":"cep"			}		}	},	"requestHead":{		"no":"20201119113900",		"source":"dragoon",		"sourceId":"datasrv",		"version":"1.0",		"auth":{			"name":"Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw",			"password":"yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW"		}	}}
+2020-11-19 11:39:17 -Shutting down ExecutorService 'taskScheduler'
+2020-11-19 11:39:17 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:39:17 -HikariPool-1 - Shutdown initiated...
+2020-11-19 11:39:17 -HikariPool-1 - Shutdown completed.
+2020-11-19 11:39:23 -Starting Application on v_yijit-NB1 with PID 16308 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-19 11:39:23 -No active profile set, falling back to default profiles: default
+2020-11-19 11:39:24 -Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:39:24 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:39:24 -Starting service [Tomcat]
+2020-11-19 11:39:24 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-19 11:39:24 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-19 11:39:24 -Initializing Spring embedded WebApplicationContext
+2020-11-19 11:39:24 -Root WebApplicationContext: initialization completed in 932 ms
+2020-11-19 11:39:24 -Servlet dispatcherServlet mapped to [/]
+2020-11-19 11:39:24 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-19 11:39:24 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-19 11:39:24 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-19 11:39:24 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-19 11:39:24 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:39:24 -Initializing ExecutorService 'taskScheduler'
+2020-11-19 11:39:24 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:39:24 -Using a shared selector for servlet write/read
+2020-11-19 11:39:24 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:39:24 -Started Application in 1.827 seconds (JVM running for 2.754)
+2020-11-19 11:40:00 -每日数据中台定时任务开始于: Thu Nov 19 11:40:00 CST 2020
+2020-11-19 11:40:00 -HikariPool-1 - Starting...
+2020-11-19 11:40:00 -HikariPool-1 - Start completed.
+2020-11-19 11:40:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-19 11:40:00 -请求参数>>>>>>>>>>>>{	"requestBody":{		"requestData":{			"taskType":"1","taskStep":"1",			"params":{				"database":"crtfcent_db",				"table_name":"SYS_ORGUNT_CHG_EVT_C","sgbcode":"all","bizdate":"2020-11-18","declare_num":0,"subsys_code":"cep"			}		}	},	"requestHead":{		"no":"20201119114000",		"source":"dragoon",		"sourceId":"datasrv",		"version":"1.0",		"auth":{			"name":"Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw",			"password":"yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW"		}	}}
+2020-11-19 11:40:03 -Shutting down ExecutorService 'taskScheduler'
+2020-11-19 11:40:03 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:40:03 -HikariPool-1 - Shutdown initiated...
+2020-11-19 11:40:03 -HikariPool-1 - Shutdown completed.
+2020-11-19 11:40:42 -Starting Application on v_yijit-NB1 with PID 9836 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-11-19 11:40:42 -No active profile set, falling back to default profiles: default
+2020-11-19 11:40:43 -Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:40:43 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:40:43 -Starting service [Tomcat]
+2020-11-19 11:40:43 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-19 11:40:43 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-11-19 11:40:43 -Initializing Spring embedded WebApplicationContext
+2020-11-19 11:40:43 -Root WebApplicationContext: initialization completed in 924 ms
+2020-11-19 11:40:43 -Servlet dispatcherServlet mapped to [/]
+2020-11-19 11:40:43 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-19 11:40:43 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-19 11:40:43 -Mapping filter: 'formContentFilter' to: [/*]
+2020-11-19 11:40:43 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-19 11:40:43 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:40:43 -Initializing ExecutorService 'taskScheduler'
+2020-11-19 11:40:43 -Starting ProtocolHandler ["http-nio-8080"]
+2020-11-19 11:40:43 -Using a shared selector for servlet write/read
+2020-11-19 11:40:43 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:40:43 -Started Application in 1.799 seconds (JVM running for 2.714)
+2020-11-19 11:41:00 -每日数据中台定时任务开始于: Thu Nov 19 11:41:00 CST 2020
+2020-11-19 11:41:00 -HikariPool-1 - Starting...
+2020-11-19 11:41:00 -HikariPool-1 - Start completed.
+2020-11-19 11:41:00 ->>>>>>>>tablename:SYS_ORGUNT_CHG_EVT_C----count:1
+2020-11-19 11:41:00 -请求参数>>>>>>>>>>>>{"requestBody":{"requestData":{"taskType":"1","taskStep":"1","params":{"database":"crtfcent_db","table_name":"SYS_ORGUNT_CHG_EVT_C","sgbcode":"all","bizdate":"2020-11-18","declare_num":0,"subsys_code":"cep"}}},"requestHead":{"no":"20201119114100","source":"dragoon","sourceId":"datasrv","version":"1.0","auth":{"name":"Kpk23BvqjijFEi1P5j5p2TQHSrhYNHNDgFOw","password":"yFGH3Ih43YPkrTu0dl6fodKeUx1RZ5iW"}}}
+2020-11-19 11:41:04 -Shutting down ExecutorService 'taskScheduler'
+2020-11-19 11:41:04 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:41:04 -HikariPool-1 - Shutdown initiated...
+2020-11-19 11:41:04 -HikariPool-1 - Shutdown completed.

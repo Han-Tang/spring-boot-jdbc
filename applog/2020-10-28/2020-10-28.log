@@ -1,0 +1,20 @@
+2020-10-28 18:17:12 -Starting Application on v_yijit-NB1 with PID 7704 (F:\IdeaProjects\spring-boot-jdbc\target\classes started by lenovo in F:\IdeaProjects\spring-boot-jdbc)
+2020-10-28 18:17:12 -No active profile set, falling back to default profiles: default
+2020-10-28 18:17:13 -Tomcat initialized with port(s): 8080 (http)
+2020-10-28 18:17:13 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-28 18:17:13 -Starting service [Tomcat]
+2020-10-28 18:17:13 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-10-28 18:17:13 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;%JAVA_HOME%\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-10-28 18:17:13 -Initializing Spring embedded WebApplicationContext
+2020-10-28 18:17:13 -Root WebApplicationContext: initialization completed in 915 ms
+2020-10-28 18:17:13 -Servlet dispatcherServlet mapped to [/]
+2020-10-28 18:17:13 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-28 18:17:13 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-28 18:17:13 -Mapping filter: 'formContentFilter' to: [/*]
+2020-10-28 18:17:13 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-28 18:17:13 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 18:17:13 -Initializing ExecutorService 'taskScheduler'
+2020-10-28 18:17:13 -Starting ProtocolHandler ["http-nio-8080"]
+2020-10-28 18:17:13 -Using a shared selector for servlet write/read
+2020-10-28 18:17:13 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-28 18:17:13 -Started Application in 1.767 seconds (JVM running for 2.642)
